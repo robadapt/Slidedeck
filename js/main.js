@@ -1,1 +1,1 @@
-console.log("Slidedeck initialized"); gsap.from("h1", {opacity: 0, y: 50, duration: 1});
+gsap.from(".hero-content", {opacity: 0, y: 50, duration: 1.5, ease: "power3.out"}); gsap.from(".hero-content h1", {opacity: 0, y: 30, duration: 1, delay: 0.5, ease: "power2.out"}); gsap.from(".hero-content p", {opacity: 0, y: 20, duration: 1, delay: 1, ease: "power2.out"});
